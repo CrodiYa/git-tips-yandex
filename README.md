@@ -26,6 +26,8 @@ esc + :q!
 
 - git init - init git rep
 
+- git remote add origin ssh
+
 - git status - info
 
 - git remote add origin url - connect to rep
