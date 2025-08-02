@@ -50,4 +50,24 @@ esc + :q!
 
 - git diff - lookup for changes in last commit (add --staged if staged)
 
-- echo <text> - log to console (add > OR >> <file> to add to file (> delets file`s content >> - just adds) 
+- echo <text> - log to console (add > OR >> <file> to add to file (> delets file`s content >> - just adds)
+
+- git branch - show all local (-a to show remote too)
+
+- git branch name - making new branch
+
+- git checkout -b name - make a branch and go to it
+
+- git diff main HEAD - diff between main and HEAD pointer
+
+- git diff HEAD~2 HEAD - diff between commit that was 2 steps behind and this one
+
+- git branch -d name - delete branch only if it is part of main (-D if not)
+
+- git merge main - merger curr with main
+
+-  git push -u origin my-branch - sending to github and connecting it with local branch
+
+-  git pull - get changes from github from curr branch
+
+- git checkout name - got to branch
