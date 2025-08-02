@@ -37,3 +37,5 @@ esc + :q!
 - git commit - commit file
 
 - git push - push to rep git push -u main first time
+
+- git log   (add "--oneline" if short)
