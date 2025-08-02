@@ -39,3 +39,5 @@ esc + :q!
 - git push - push to rep git push -u main first time
 
 - git log   (add "--oneline" if short)
+
+- git commit --amend --no-edit - changing prev commit
